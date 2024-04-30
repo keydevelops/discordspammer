@@ -6,3 +6,6 @@
 1. Установите [Python](https://www.python.org/download)
 2. Установите библиотеки ```pip install -r requirements.txt```
 3. Запустите скрипт. ```python spammer.py```
+
+
+**Внимание! Автор данной программы не несет ответственности за ваш аккаунт!**
