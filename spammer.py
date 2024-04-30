@@ -65,7 +65,7 @@ async def spam(ctx):
         except Exception as e:
             print(f'[{Fore.RED} - {Style.RESET_ALL}] Не удалось отправить сообщение в канал {ctx.channel}\n\nОшибка: {e}')
 try:
-    client.run(tkn, bot = False)
+    client.run(tkn)
 except Exception as e:
     print(f'[{Fore.RED} - {Style.RESET_ALL}] Не смог загрузить селф-бота')
     time.sleep(10)
