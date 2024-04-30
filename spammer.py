@@ -4,8 +4,7 @@ import time
 import os
 from colorama import init, Fore, Style
 import time
-import sime_library
-sime_library.set_window_title("Спамер")
+os.system('title Спамер')
 init()
 print(f'''{Fore.BLUE}{Style.BRIGHT}
 ╔══╗          ╔╗╔═╗         ╔═══╗                           ╔╗    ╔═══╗       ╔╗        
@@ -53,7 +52,7 @@ except Exception as e:
     time.sleep(10)
     exit()
 @client.event
-async def on_ready():
+async def on_connect():
     print(f'[{Fore.GREEN} + {Style.RESET_ALL}] {Fore.LIGHTGREEN_EX}Запустил селф-бота {client.user.name}\n\n[{Fore.GREEN} INFO {Style.RESET_ALL}] Для запуска спама напиши команду .spam')
 @client.command()
 async def spam(ctx):
